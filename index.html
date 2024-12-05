@@ -9,35 +9,45 @@
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Custom CSS (Optional) -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <style>
-        /* Example of custom CSS */
         body {
             background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .about-section, .work-section, .contact-section {
+            padding: 50px 20px;
         }
         .about-section {
             background-color: #e9ecef;
-            padding: 50px;
         }
         .work-section {
             background-color: #fff3cd;
-            padding: 50px;
         }
         .contact-section {
             background-color: #f8d7da;
-            padding: 50px;
+        }
+        .work-card img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
 
 <body>
-
     <!-- Banner Section -->
-    <header class="text-center bg-dark text-light py-5">
-        <h1>Sritam Mukherjee | Content Writer & Aspiring Researcher</h1>
-    </header>
+    <div class="banner">
+        <h1>Sritam Mukherjee</h1>
+        <p>Content Writer | Aspiring AI Researcher</p>
+    </div>
 
     <!-- About Me Section -->
     <section class="about-section">
@@ -48,7 +58,7 @@
                     <p>Hello! I'm Sritam Mukherjee, a professional content writer and aspiring AI researcher. I specialize in blog writing, article writing, email marketing, and more.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/your-image.jpg" alt="Sritam Mukherjee" class="img-fluid">
+                    <img src="images/about-me.jpg" alt="Sritam Mukherjee" class="img-fluid rounded-circle">
                 </div>
             </div>
         </div>
@@ -59,28 +69,26 @@
         <div class="container">
             <h2 class="text-center">My Work</h2>
             <div class="row">
+                <!-- Work Cards -->
                 <div class="col-md-4">
-                    <h3>Article Writing</h3>
-                    <p>I write insightful, engaging articles on various topics.</p>
+                    <div class="card work-card">
+                        <img src="images/article-writing.jpg" alt="Article Writing">
+                        <div class="card-body">
+                            <h5>Article Writing</h5>
+                            <a href="https://blog.ipleaders.in/leveraging-artificial-intelligence-for-leadership/" target="_blank">AI Leadership</a><br>
+                            <a href="https://blog.ipleaders.in/your-money-your-life-your-content-a-guide-to-googles-e-e-a-t-for-ymyl-websites/" target="_blank">E-E-A-T Guide</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <h3>Blog Writing</h3>
-                    <p>My blogs are known for their quality content and SEO optimization.</p>
-                </div>
-                <div class="col-md-4">
-                    <h3>Email Marketing Campaign</h3>
-                    <p>Crafting persuasive email marketing campaigns that convert.</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Pitch Deck Presentations</h3>
-                    <p>Compelling pitch decks that capture attention.</p>
-                </div>
-                <div class="col-md-4">
-                    <h3>Infographics</h3>
-                    <p>Clear and visually appealing infographics for complex information.</p>
+                    <div class="card work-card">
+                        <img src="images/blog-writing.jpg" alt="Blog Writing">
+                        <div class="card-body">
+                            <h5>Blog Writing</h5>
+                            <a href="https://web4buddy.com/blog/blogsdetail/5/mistakes-to-avoid-when-using-website-templates" target="_blank">Website Templates</a><br>
+                            <a href="https://web4buddy.com/blog/blogsdetail/6/building-your-mailing-list-with-downloads-the-most-effective-ways" target="_blank">Mailing Lists</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,7 +98,10 @@
     <section class="contact-section">
         <div class="container text-center">
             <h2>Contact Me</h2>
-            <p>Feel free to reach out through my LinkedIn profile.</p>
+            <p>Feel free to reach out through my LinkedIn profile or directly using the contact details below:</p>
+            <p><strong>Phone:</strong> +91-12345-67890</p>
+            <p><strong>Email 1:</strong> email1@example.com</p>
+            <p><strong>Email 2:</strong> email2@example.com</p>
             <a href="https://www.linkedin.com/in/sritam-mukherjee" class="btn btn-primary">LinkedIn Profile</a>
         </div>
     </section>
@@ -100,9 +111,10 @@
         <p>© 2024 Sritam Mukherjee - Portfolio</p>
     </footer>
 
-    <!-- Bootstrap 5 JS CDN -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
+
+
