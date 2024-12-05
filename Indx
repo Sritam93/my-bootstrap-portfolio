@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sritam Mukherjee Portfolio</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .about-section, .work-section, .contact-section {
+            padding: 50px 20px;
+        }
+        .about-section {
+            background-color: #e9ecef;
+        }
+        .work-section {
+            background-color: #fff3cd;
+        }
+        .contact-section {
+            background-color: #f8d7da;
+        }
+        .work-card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>Sritam Mukherjee</h1>
+        <p>Content Writer | Aspiring AI Researcher</p>
+    </div>
+
+    <!-- About Me Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Sritam Mukherjee, a professional content writer and aspiring AI researcher. I specialize in blog writing, article writing, email marketing, and more.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/about-me.jpg" alt="Sritam Mukherjee" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Work Section -->
+    <section class="work-section">
+        <div class="container">
+            <h2 class="text-center">My Work</h2>
+            <div class="row">
+                <!-- Work Cards -->
+                <div class="col-md-4">
+                    <div class="card work-card">
+                        <img src="images/article-writing.jpg" alt="Article Writing">
+                        <div class="card-body">
+                            <h5>Article Writing</h5>
+                            <a href="https://blog.ipleaders.in/leveraging-artificial-intelligence-for-leadership/" target="_blank">AI Leadership</a><br>
+                            <a href="https://blog.ipleaders.in/your-money-your-life-your-content-a-guide-to-googles-e-e-a-t-for-ymyl-websites/" target="_blank">E-E-A-T Guide</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card work-card">
+                        <img src="images/blog-writing.jpg" alt="Blog Writing">
+                        <div class="card-body">
+                            <h5>Blog Writing</h5>
+                            <a href="https://web4buddy.com/blog/blogsdetail/5/mistakes-to-avoid-when-using-website-templates" target="_blank">Website Templates</a><br>
+                            <a href="https://web4buddy.com/blog/blogsdetail/6/building-your-mailing-list-with-downloads-the-most-effective-ways" target="_blank">Mailing Lists</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="contact-section">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through my LinkedIn profile or directly using the contact details below:</p>
+            <p><strong>Phone:</strong> +91-12345-67890</p>
+            <p><strong>Email 1:</strong> email1@example.com</p>
+            <p><strong>Email 2:</strong> email2@example.com</p>
+            <a href="https://www.linkedin.com/in/sritam-mukherjee" class="btn btn-primary">LinkedIn Profile</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-light py-3">
+        <p>© 2024 Sritam Mukherjee - Portfolio</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
